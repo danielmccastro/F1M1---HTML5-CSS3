@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <table width="100%" class="tabela1">
+            <tr>
+                <td rowspan="2" width="3%" class="tituloFoto"><img src="img/perfil.jpg" alt="Foto de Perfil"
+                        style="border-radius: 75px;" width="150px"></td>
+                <td>
+                    <h1 width="50%" class="tituloNome">Daniel Castro</h1>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%">
+                    <h2 class="tituloProfissao">&lt;Designer e Desenvolvedor Web&gt;</h2>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <br>
+        <table width="80%" class="tabela2">
+            <tr>
+                <td colspan=2>
+                    <ul style="text-align: center;">
+                        <li class="botaoLink"><a href="index.html" class="botaoLink">Principal</a></li>
+                        <li class="botaoLink"><a href="quemsou.html" class="botaoLink">Quem Sou</a></li>
+                        <li class="botaoLink"><a href="projetos.html" class="botaoLink">Projetos</a></li>
+                        <li class="botaoSel">Contato</li>
+                    </ul>
+                </td>
+            </tr>
+            <table class=tabela4>
+                <tr>
+                    <td>
+                        <h1>Entre em contato!</h1><br>
+                        <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei. Será um prazer
+                            lhe atender!</p>
+                    </td>
+                </tr>
+            </table>
+            <table class=tabela4>
+                <tr>
+                    <td>
+                        <form action="/cliente/cadastrar" method="post">
+                            <p>
+                                <label for="assunto">Assunto</label><br>
+                                <select name="Assunto" id="assunto">
+                                    <option value="SelecioneAssunto" disabled selected>Selecione o assunto</option>
+                                    <option value="Orcamento">Orçamento</option>
+                                    <option value="Duvidas">Dúvidas</option>
+                                    <option value="Sugestoes">Sugestões</option>
+                                    <option value="Outros">Outros</option>
+                                </select>
+                            </p>
+                            <br>
+                            <p>
+                                <label for="txtNomeCliente">Nome completo</label><br>
+                                <input type="text" name="NomeCliente" id="txtNomeCliente" class="formulario">
+                            </p>
+                            <br>
+                            <p>
+                                <label for="txtEmail">E-mail</label><br>
+                                <input type="email" name="Email" id="txtEmail" class="formulario"><br>
+                            </p>
+                            <br>
+                            <p>
+                                <label for="celular">Celular</label><br>
+                                <input type="tel" name="Celular" id="celular" min="0"
+                                    pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="00 00000-0000" required
+                                    class="formulario">
+                            </p>
+                            <br>
+                            <p>
+                                <label for="mensagem">Mensagem</label><br>
+                                <textarea name="Mensagem" id="mensagem" cols="62" rows="10"></textarea>
+                            </p>
+                            <br>
+                            <p>
+                                <input type="submit" value="Enviar" class="botaoEnviar">
+                            </p>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Outras formas de contato:</h3>
+                        <ul>
+                            <li>Residente em Vitória/ES</li>
+                            <li><a href="mailto:danielmccastro@gmail.com">danielmccastro@gmail.com</a></li>
+                            <li>(27) 99979-6810</li>
+                            <li><a href="https://www.linkedin.com/in/danielcastroarq/">LinkedIn</a> </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+    </main>
+    <footer>
+        <p>
+            <b>Copyright © 2022</b>
+            <br><img src="img/ifes_resized2.png" alt="Logo Ifes">
+        </p>
+    </footer>
+</body>
+
+</html>

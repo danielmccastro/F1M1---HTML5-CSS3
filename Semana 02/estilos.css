@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(#232323, #3f5298);
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tabela1 {
+    line-height: 15px;
+}
+
+.tituloFoto {
+    text-align: center;
+}
+
+.tituloNome {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+.tituloProfissao {
+    color: white;
+    font-weight: normal;
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+main {
+    background-color: rgb(239, 226, 187);
+}
+
+.tabela2 {
+    border-spacing: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+.botaoSel {
+    display: inline-block;
+    margin-right: 100px;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: "Caveat";
+}
+
+.botaoLink {
+    display: inline-block;
+    margin-right: 30px;
+
+    padding-inline: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: "Caveat";
+}
+
+.botaoLink a:hover {
+    color: white;
+    background-color: #3f5298;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 15px;
+}
+
+.secaoHero {
+    color: white;
+    background-color: #232323;
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.secaoHero .hero1 {
+    font-family: "Caveat";
+    font-size: 60px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.secaoHero .hero2 {
+    font-family: "Open Sans";
+    font-size: 80px;
+    color: #d79a1f;
+    padding-bottom: 20px;
+}
+
+.secaoHero .hero3 {
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 60px;
+}
+
+.fotoHero {
+    border-radius: 25px;
+}
+
+.botaoContateme {
+    background-color: #3f5298;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.tabela3 {
+    border-spacing: 10px;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.linktabela3 {
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tabela4 {
+    border-spacing: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-family: "Open Sans";
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 2px;
+}
+
+.rodape {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+select {
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding-right: 350px;
+    border-radius: 10px;
+}
+
+.formulario {
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding-right: 335px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-indent: 10px;
+}
+
+textarea {
+    font-family: "Open Sans";
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-indent: 10px;
+}
+
+.botaoEnviar {
+    color: white;
+    background-color: #3f5298;
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
